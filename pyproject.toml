@@ -1,0 +1,17 @@
+[project]
+name = "ebac"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Felipe Eduardo Grassi",email = "felipegrassi8@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "django-rest-framework (>=0.1.0,<0.2.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
