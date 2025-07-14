@@ -9,4 +9,4 @@ from product.serializers.category_serializer import CategorySerializer
 class CategoryViewSet(ModelViewSet):
     serializer_class=CategorySerializer
     def queryset(self):
-        return Category.objects.all()
+        return Category.objects.all().order_by("id")
